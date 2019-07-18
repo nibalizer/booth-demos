@@ -9,7 +9,7 @@ run () {
 
 echo "Running booth demo!"
 
-feh -Z -D 6 --on-last-slide quit screenshot_k8s_view.png
+feh -F -Z -D 6 --on-last-slide quit screenshot_k8s_view.png
 
 ibmcloud ks cluster config k8s.nibalizer.net
 
@@ -34,5 +34,7 @@ run kubectl describe -n clean ing/main-ingress
 
 run host apps.nibalizer.net
 
-feh -Z -D 6 --on-last-slide quit watson_twitch.png 
+feh -F -Z -D 6 --on-last-slide quit watson_twitch.png 
+
+feh -F -Z -D 6 --on-last-slide quit ibm-cloud-data-centers.png
 
